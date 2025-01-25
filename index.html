@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newsletter Signup</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comforter Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1 class="logo">NewsFlash</h1>
-            <nav>
-                <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#signup">Sign Up</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="menu-icon">
+        <img src="https://via.placeholder.com/30" alt="Menu">
+      </div>
+      <div class="logo">Comforter Clone</div>
+      <div class="search-cart">
+        <input type="text" placeholder="Search for products...">
+        <div class="cart">
+          <img src="https://via.placeholder.com/20" alt="Cart">
+          <span>My Bag</span>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h2>Stay Informed with the Latest Updates</h2>
-            <p>Subscribe to our newsletter and never miss out on the latest news and insights.</p>
-            <form id="signup" class="signup-form">
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
+  <main>
+    <!-- Sidebar Menu -->
+    <aside class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li>Living Room Furniture</li>
+        <li>Upholstered Furniture</li>
+        <li>Table & Chairs</li>
+        <li>Bedroom Furniture</li>
+        <li>Bathroom Furniture</li>
+        <li>Office Furniture</li>
+        <li>Patio Furniture</li>
+        <li>Accessories</li>
+      </ul>
+    </aside>
+
+    <!-- Product Listings -->
+    <section class="products">
+      <h2>Products</h2>
+      <div id="product-grid" class="product-grid">
+        <!-- Products will be dynamically loaded here -->
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <button id="prev-page">Previous</button>
+        <span id="current-page">Page 1</span>
+        <button id="next-page">Next</button>
+      </div>
     </section>
+  </main>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Why Subscribe?</h2>
-            <div class="feature-cards">
-                <div class="card">
-                    <h3>Exclusive Content</h3>
-                    <p>Get insights and articles that you won't find anywhere else.</p>
-                </div>
-                <div class="card">
-                    <h3>Weekly Updates</h3>
-                    <p>Receive a weekly roundup of the most important news.</p>
-                </div>
-                <div class="card">
-                    <h3>Stay Ahead</h3>
-                    <p>Be the first to know about trends, events, and more.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <footer>
+    <div class="container">
+      <p>© 2025 Comforter Clone | Email: support@comforterclone.com | Phone: +1 234 567 8900</p>
+    </div>
+  </footer>
 
-    <!-- Footer -->
-    <footer id="contact">
-        <div class="container">
-            <p>&copy; 2025 NewsFlash. All rights reserved.</p>
-            <p>Contact us: <a href="mailto:info@newsflash.com">info@newsflash.com</a></p>
-        </div>
-    </footer>
+  <script src="script.js"></script>
 </body>
-</html>
 </html>
